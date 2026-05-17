@@ -43,5 +43,4 @@ You will need Python 3 installed on your Windows machine.
    pip install pyserial pycaw
    ```
 
-
-Designed and Tested by Bunnys
+Designed and Tested by Youssef
