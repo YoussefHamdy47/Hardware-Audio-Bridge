@@ -28,7 +28,7 @@ It features two-way synchronization, dynamic audio endpoint detection (Bluetooth
 
 ---
 
-## 💻 Software Setup
+## Software Setup
 
 ### 1. The Arduino
 1. Open `VolControlAVR.ino` in the Arduino IDE.
