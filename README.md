@@ -24,7 +24,7 @@ It features two-way synchronization, dynamic audio endpoint detection (Bluetooth
 ## Circuit Diagram
 *(Ensure capacitors are oriented correctly to ground!)*
 
-<img width="1079" height="606" alt="Screenshot 2026-05-18 023650" src="https://github.com/user-attachments/assets/e20b58df-28e3-40ea-84de-7dd71204cb8f" />
+<img width="898" height="629" alt="Screenshot 2026-05-18 213552" src="https://github.com/user-attachments/assets/b00a61a8-be07-42ce-9a8a-a59f922f6bc5" />
 
 ---
 
