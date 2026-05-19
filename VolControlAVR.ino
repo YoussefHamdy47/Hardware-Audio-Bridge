@@ -35,9 +35,10 @@ void setup() {
 }
 
 int potToVolume(float adcVal) {
-  if (adcVal <= DEADZONE_LOW)  return 0;
-  if (adcVal >= DEADZONE_HIGH) return 100;
-  return (int)(((adcVal - DEADZONE_LOW) / (float)(DEADZONE_HIGH - DEADZONE_LOW)) * 100.0 + 0.5);
+  if (adcVal <= DEADZONE_LOW)  return 100;
+  if (adcVal >= DEADZONE_HIGH) return 0;
+  int vol = (int)(100.0 - (((adcVal - DEADZONE_LOW) / (float)(DEADZONE_HIGH - DEADZONE_LOW)) * 100.0) + 0.5);
+  return constrain(vol, 0, 100);
 }
 
 void loop() {
